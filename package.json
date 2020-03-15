@@ -1,0 +1,27 @@
+{
+	"name": "binary-coffee-snippet",
+	"description": "Extension Pack snippets for Binary Coffee",
+	"version": "1.0.0",
+	"displayName": "Binary Coffee snippets for articles",
+	"publisher": "stescobedo92",
+	"icon": "images/bncf-icon.png",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stescobedo92/vscode-binary-coffee"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": plaintext",
+				"path": "./snippets/snippets.json"
+			}			
+		]
+	}
+}
