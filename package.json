@@ -1,9 +1,9 @@
 {
-	"name": "binary-coffee-snippet",
+		"name": "binary-coffee-snippet",
 	"description": "Extension Pack snippets for Binary Coffee",
 	"version": "1.0.0",
 	"displayName": "Binary Coffee snippets for articles",
-	"publisher": "stescobedo92",
+	"publisher": "stescobedo",
 	"icon": "images/bncf-icon.png",
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {
@@ -19,9 +19,14 @@
 	"contributes": {
 		"snippets": [
 			{
-				"language": plaintext",
+				"language": "markdown",
 				"path": "./snippets/snippets.json"
 			}			
 		]
+	},
+		"__metadata": {
+		"id": "3fvqp77oik47rgsiuudcjv36rklt2qp72kr5p26yagp6y3gq476a",
+		"publisherId": "2szodxth7mcetwz6neqiy73hplnobfulnxa6vc3tecij6q24m6aa",
+		"publisherDisplayName": "stescobedo"
 	}
 }
