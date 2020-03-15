@@ -22,12 +22,12 @@ Below is a list of all available snippets and the triggers of each one. The **â‡
 
 |           Trigger | Content                                                                                     |
 | ----------------: | ------------------------------------------------------------------------------------------- |
-|      `bncf-title` | imports entire module `import fs from 'fs';`                                                |
-|       `bncf-link` | imports entire module without module name `import 'animate.css'`                            |
-|      `bncf-image` | imports only a portion of the module using destructing `import {rename} from 'fs';`         |
-|    `bncf-section` | imports everything as alias from the module `import * as localAlias from 'fs';`             |
-| `bncf-subsection` | imports only a portion of the module as alias `import { rename as localRename } from 'fs';` |
+|      `bncf-title` | Article title                                                |
+|       `bncf-link` | For any link ej: https://binary-coffee.dev                            |
+|      `bncf-image` | Load images
+|    `bncf-section` | Create a new Section
+| `bncf-subsection` | Create a new Sub-Section
 
-[code]: https://code.visualstudio.com
+[code]: https://binary-coffee.dev
 
 
