@@ -1,0 +1,32 @@
+{
+  "title": {
+    "prefix": "bncf-title",
+    "body": "# Binary Coffee title of article",
+    "description": "Title for you article"
+  },
+  "section": {
+    "prefix": "bcnf-section",
+    "body": "# Section Name",
+    "description": "Name of Section"
+  },
+  "subsection": {
+    "prefix": "bcnf-subsection",
+    "body": "## Sub Section Name",
+    "description": "Subsection Name"
+  },
+  "link": {
+    "prefix": "bncf-link",
+    "body": "[Text](https://google.com)",
+    "description": "Imports everything as alias from the module in ES6 syntax"
+  },
+  "image": {
+    "prefix": "bcnf-image",
+    "body": "[Caption](../images/markdown.png)",
+    "description": "Images for articles"
+  },
+  "footnote": {
+    "prefix": "bcnf-footnote",
+    "body": "Example of a footnote [^0]",
+    "description": "Foot Note"
+  }
+}
