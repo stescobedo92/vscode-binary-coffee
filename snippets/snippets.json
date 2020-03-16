@@ -16,17 +16,67 @@
   },
   "link": {
     "prefix": "bncf-link",
-    "body": "[Text](https://google.com)",
-    "description": "Imports everything as alias from the module in ES6 syntax"
+    "body": "[Binary-Coffee Link](https://binary-coffee.dev)",
+    "description": "bncf-link is equivalent <a href=\"https: //binary-coffee.dev\"</a> "
   },
   "image": {
     "prefix": "bcnf-image",
-    "body": "[Caption](../images/markdown.png)",
+    "body": "![Caption](../images/markdown.png)",
     "description": "Images for articles"
   },
   "footnote": {
     "prefix": "bcnf-footnote",
     "body": "Example of a footnote [^0]",
     "description": "Foot Note"
+  },
+  "heading": {
+    "prefix": "bcnf-heading",
+    "body": ["Heading", "======="],
+    "description": "Heading is equivalent <h1>Heading</h1>"
+  },
+  "sub-heading": {
+    "prefix": "bcnf-sub-heading",
+    "body": ["Sub-heading", "-----------"],
+    "description": "SubHeading equivalent <h2>Sub-heading</h2>"
+  },
+  "hr": {
+    "prefix": "bcnf-hr",
+    "body": "---",
+    "description": "--- is equivalent </hr>"
+  },
+  "bullet": {
+    "prefix": "bcnf-bullet",
+    "body": ["* Item1", "* Item2", "* Item3"],
+    "description": "Bullet is equivalent <ul><li>Item1</li><ul>"
+  },
+  "numbered-list": {
+    "prefix": "bcnf-number-list",
+    "body": ["1. Item1", "2. Item2", "3. Item3"],
+    "description": "Number List is equivalent <ol><li>Item1</li><ol>"
+  },
+  "text-italic": {
+    "prefix": "bcnf-italic",
+    "body": "Text attributes _italic_",
+    "description": "_italic_ is equivalent <p>Text attributes <em>italic</em>"
+  },
+  "text-bold": {
+    "prefix": "bcnf-bold",
+    "body": "**binary coffee**",
+    "description": "**binary coffee** is equivalent <strong>bold</strong>"
+  },
+  "abbr": {
+    "prefix": "bcnf-abbr-title",
+    "body": "Inline <abbr title=\"The blog Binary Coffee\">HTML</abbr> is great.",
+    "description": "bcnf-abbr-title is equivalent <p>Inline <abbr title=\"Hypertext Markup Language\">HTML</abbr> is supported.</p>"
+  },
+  "table": {
+    "prefix": "bcnf-table",
+    "body": [
+      "| Column 1       | Column 2     | Column 3     |",
+      "| :------------- | :----------: | -----------: |",
+      "|  Cell Contents | More Stuff   | And Again    |",
+      "| You Can Also   | Put Pipes In | Like this    |"
+    ],
+    "description": "bcnf-table is equivalent to Table"
   }
 }
