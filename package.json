@@ -1,7 +1,7 @@
 {
-		"name": "binary-coffee-snippet",
+	"name": "binary-coffee-snippet",
 	"description": "Extension Pack snippets for Binary Coffee",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"displayName": "Binary Coffee snippets for articles",
 	"publisher": "stescobedo",
 	"icon": "images/bncf-icon.png",
@@ -17,12 +17,38 @@
 		"Snippets"
 	],
 	"contributes": {
+		"markdown.markdownItPlugins": true,
 		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
 			{
 				"language": "markdown",
 				"path": "./snippets/snippets.json"
 			}			
-		]
+		],
+		"viewsContainers": {
+		    "activitybar": [
+        	     {
+		       "id": "package-explorer",
+		       "title": "Binary Coffee Explorer",
+		       "icon": "media/bncf-icon.svg"
+        	      }
+      		    ]
+    		},
+    "views": {
+      "package-explorer": [
+        {
+          "id": "package-dependencies",
+          "name": "Articulos publicados"
+        }
+      ]
+    }		
 	},
 		"__metadata": {
 		"id": "3fvqp77oik47rgsiuudcjv36rklt2qp72kr5p26yagp6y3gq476a",
