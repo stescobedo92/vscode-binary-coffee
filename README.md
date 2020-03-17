@@ -1,6 +1,28 @@
 # Binary Coffee
 
-## VS Code Binary Coffee (bncf) snippets
+## Write an Article
+
+- Create new (Binary Coffee Article) from pre-defined templates.
+- Create new Templates either from a file or a blank template.
+- Edit Templates Articles.
+- Add Author Name and Date of creation to the file.
+
+## Usage
+
+- Right-click on the VSCode Explorer where you want to create a new file, you will see an option 'Create New Article from template'.
+  Selecting this option shows a menu with existing templates. Select the desired template and enter the new file name. New file will be created in the selected folder.
+
+- You can also create a new Article from template by Right-click on the editor. On Right-click in the editor, you will all also see 'Create Template from articles' option. Select this option to create a new Template from the current active document.
+
+- You can also do all these the other way by selecting the appropriate command from Command Palette. From Command Palette, select
+  'Files: Create empty article' - to create a new empty article
+  'Files: Create new Template for article' - to create a custom template for articles.
+  'Files: New Template from file' - to create a new template from the current active file.
+  'Files: Edit Article Template' - to edit any existing template.
+
+- Add Author name and Date of creation to the file, by adding `${AUTHOR}` and `${DATE}` tokens to your template.
+
+## VS Code Binary Coffee (bc) Snippets
 
 ---
 
@@ -48,4 +70,3 @@ Below is a list of all available snippets and the triggers of each one. The **â‡
 |          `bc-h6` | ###### H6                                                                                       |
 
 [code]: https://binary-coffee.dev
-
