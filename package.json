@@ -1,46 +1,93 @@
 {
-	"name": "binary-coffee-snippet",
-	"description": "Extension Pack snippets for Binary Coffee",
-	"version": "1.1.1",
-	"displayName": "Binary Coffee snippets for articles",
-	"publisher": "stescobedo",
-	"icon": "images/bncf-icon.png",
-	"license": "SEE LICENSE IN LICENSE.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/stescobedo92/vscode-binary-coffee"
-	},
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"contributes": {
-		"markdown.markdownItPlugins": true,
-		"snippets": [
-			{
-				"language": "javascript",
-				"path": "./snippets/snippets.json"
-			},
-			{
-				"language": "html",
-				"path": "./snippets/snippets.json"
-			},
-			{
-				"language": "markdown",
-				"path": "./snippets/snippets.json"
-			}			
-		],
-		"viewsContainers": {
-		    "activitybar": [
-        	     {
-		       "id": "package-explorer",
-		       "title": "Binary Coffee Explorer",
-		       "icon": "media/bncf-icon.svg"
-        	      }
-      		    ]
-    		},
+  "name": "binary-coffee-snippet",
+  "description": "Extension Pack snippets for Binary Coffee",
+  "version": "1.1.2",
+  "displayName": "Binary Coffee snippets for articles",
+  "publisher": "stescobedo",
+  "icon": "images/bncf-icon.png",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stescobedo92/vscode-binary-coffee"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:extension.newTemplateFromFile",
+    "onCommand:extension.newFileFromTemplate",
+    "onCommand:extension.editTemplate",
+    "onCommand:extension.newTemplate"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.newTemplate",
+        "title": "Create empty article",
+        "category": "Files"
+      },
+      {
+        "command": "extension.newTemplateFromFile",
+        "title": "Create new Template for (binary-coffe) articles",
+        "category": "Files"
+      },
+      {
+        "command": "extension.newFileFromTemplate",
+        "title": "Create new (binary-coffe-article) from template",
+        "category": "Files"
+      },
+      {
+        "command": "extension.editTemplate",
+        "title": "Edit File Template",
+        "category": "Files"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "extension.newTemplateFromFile",
+          "group": "templates"
+        },
+        {
+          "command": "extension.newFileFromTemplate",
+          "group": "templates"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "extension.newFileFromTemplate",
+          "group": "templates"
+        }
+      ]
+    },
+    "markdown.markdownItPlugins": true,
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.json"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "package-explorer",
+          "title": "Binary Coffee Explorer",
+          "icon": "media/bncf-icon.svg"
+        }
+      ]
+    },
     "views": {
       "package-explorer": [
         {
@@ -48,11 +95,11 @@
           "name": "Articulos publicados"
         }
       ]
-    }		
-	},
-		"__metadata": {
-		"id": "3fvqp77oik47rgsiuudcjv36rklt2qp72kr5p26yagp6y3gq476a",
-		"publisherId": "2szodxth7mcetwz6neqiy73hplnobfulnxa6vc3tecij6q24m6aa",
-		"publisherDisplayName": "stescobedo"
-	}
+    }
+  },
+  "__metadata": {
+    "id": "3fvqp77oik47rgsiuudcjv36rklt2qp72kr5p26yagp6y3gq476a",
+    "publisherId": "2szodxth7mcetwz6neqiy73hplnobfulnxa6vc3tecij6q24m6aa",
+    "publisherDisplayName": "stescobedo"
+  }
 }
