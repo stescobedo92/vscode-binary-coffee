@@ -1,76 +1,120 @@
 {
+  "article": {
+    "prefix": "bc-article",
+    "body": [
+      "# Intro",
+      "",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur",
+      "vel voluptatibus similique mollitia tenetur eum, minima labore? Eos fugit",
+      "explicabo dolorem sed laboriosam hic eum fuga quis nulla cupiditate.",
+      "",
+      "# Section 1",
+      "",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur",
+      "vel voluptatibus similique mollitia tenetur eum, minima labore? Eos fugit",
+      "explicabo dolorem sed laboriosam hic eum fuga quis nulla cupiditate.",
+      "",
+      "## Sub Section 1",
+      "",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur",
+      "vel voluptatibus similique mollitia tenetur eum, minima labore? Eos fugit",
+      "explicabo dolorem sed laboriosam hic eum fuga quis nulla cupiditate.",
+      "",
+      "~~This is a image. The caption is optional.~~",
+      "",
+      "![Caption](https://api.binary-coffee.dev//uploads/399b22ad705c49b1bf1b9e7063abb9b2.png)",
+      "",
+      "## Sub Section 2",
+      "",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur",
+      "vel voluptatibus similique mollitia tenetur eum, minima labore? Eos fugit",
+      "explicabo dolorem sed laboriosam hic eum fuga quis nulla cupiditate.",
+      "",
+      "~~This is a link. The caption is necesary.~~",
+      "",
+      "[Caption](https://binary-coffee.dev)",
+      "",
+      "# Section Resume",
+      "",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur",
+      "vel voluptatibus similique mollitia tenetur eum, minima labore? Eos fugit",
+      "explicabo dolorem sed laboriosam hic eum fuga quis nulla cupiditate.",
+      "",
+      "> Keep Calm and Drink Binary Coffee"
+    ]
+  },
   "title": {
-    "prefix": "bncf-title",
+    "prefix": "bc-title",
     "body": "# Binary Coffee title of article",
     "description": "Title for you article"
   },
   "section": {
-    "prefix": "bcnf-section",
+    "prefix": "bc-section",
     "body": "# Section Name",
     "description": "Name of Section"
   },
   "subsection": {
-    "prefix": "bcnf-subsection",
+    "prefix": "bc-subsection",
     "body": "## Sub Section Name",
     "description": "Subsection Name"
   },
   "link": {
-    "prefix": "bncf-link",
+    "prefix": "bc-link",
     "body": "[Binary-Coffee Link](https://binary-coffee.dev)",
-    "description": "bncf-link is equivalent <a href=\"https: //binary-coffee.dev\"</a> "
+    "description": "bc-link is equivalent <a href=\"https: //binary-coffee.dev\"</a> "
   },
   "image": {
-    "prefix": "bcnf-image",
+    "prefix": "bc-image",
     "body": "![Caption](../images/markdown.png)",
     "description": "Images for articles"
   },
   "footnote": {
-    "prefix": "bcnf-footnote",
-    "body": "Example of a footnote [^0]",
+    "prefix": "bc-footnote",
+    "body": ">Keep Calm and Drink Binary Coffee",
     "description": "Foot Note"
   },
   "heading": {
-    "prefix": "bcnf-heading",
+    "prefix": "bc-heading",
     "body": ["Heading", "======="],
     "description": "Heading is equivalent <h1>Heading</h1>"
   },
   "sub-heading": {
-    "prefix": "bcnf-sub-heading",
+    "prefix": "bc-sub-heading",
     "body": ["Sub-heading", "-----------"],
     "description": "SubHeading equivalent <h2>Sub-heading</h2>"
   },
   "hr": {
-    "prefix": "bcnf-hr",
+    "prefix": "bc-hr",
     "body": "---",
     "description": "--- is equivalent </hr>"
   },
   "bullet": {
-    "prefix": "bcnf-bullet",
+    "prefix": "bc-bullet",
     "body": ["* Item1", "* Item2", "* Item3"],
     "description": "Bullet is equivalent <ul><li>Item1</li><ul>"
   },
   "numbered-list": {
-    "prefix": "bcnf-number-list",
+    "prefix": "bc-number-list",
     "body": ["1. Item1", "2. Item2", "3. Item3"],
     "description": "Number List is equivalent <ol><li>Item1</li><ol>"
   },
   "text-italic": {
-    "prefix": "bcnf-italic",
+    "prefix": "bc-italic",
     "body": "Text attributes _italic_",
     "description": "_italic_ is equivalent <p>Text attributes <em>italic</em>"
   },
   "text-bold": {
-    "prefix": "bcnf-bold",
+    "prefix": "bc-bold",
     "body": "**binary coffee**",
     "description": "**binary coffee** is equivalent <strong>bold</strong>"
   },
   "abbr": {
-    "prefix": "bcnf-abbr-title",
+    "prefix": "bc-abbr-title",
     "body": "Inline <abbr title=\"The blog Binary Coffee\">HTML</abbr> is great.",
     "description": "bcnf-abbr-title is equivalent <p>Inline <abbr title=\"Hypertext Markup Language\">HTML</abbr> is supported.</p>"
   },
   "table": {
-    "prefix": "bcnf-table",
+    "prefix": "bc-table",
     "body": [
       "| Column 1       | Column 2     | Column 3     |",
       "| :------------- | :----------: | -----------: |",
@@ -78,5 +122,40 @@
       "| You Can Also   | Put Pipes In | Like this    |"
     ],
     "description": "bcnf-table is equivalent to Table"
+  },
+  "video-image": {
+    "prefix": "bc-link-video",
+    "body": "[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)",
+    "description": "bc-link-video add an image with a link to the video"
+  },
+  "h1": {
+    "prefix": "bc-h1",
+    "body": "# Binary Coffee-H1",
+    "description": "# H1"
+  },
+  "h2": {
+    "prefix": "bc-h2",
+    "body": "## Binary Coffee-H2",
+    "description": "## H2"
+  },
+  "h3": {
+    "prefix": "bc-h3",
+    "body": "### Binary Coffee-H3",
+    "description": "### H3"
+  },
+  "h4": {
+    "prefix": "bc-h4",
+    "body": "#### Binary Coffee-H4",
+    "description": "#### H4"
+  },
+  "h5": {
+    "prefix": "bc-h5",
+    "body": "##### Binary Coffee-H5",
+    "description": "#### H5"
+  },
+  "h6": {
+    "prefix": "bc-h6",
+    "body": "###### Binary Coffee-H6",
+    "description": "#### H6"
   }
 }
