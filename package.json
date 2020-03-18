@@ -106,23 +106,6 @@
         "path": "./snippets/snippets-kx-letters.json"
       }
     ],
-    "viewsContainers": {
-      "activitybar": [
-        {
-          "id": "package-explorer",
-          "title": "Binary Coffee Explorer",
-          "icon": "media/bncf-icon.svg"
-        }
-      ]
-    },
-    "views": {
-      "package-explorer": [
-        {
-          "id": "package-dependencies",
-          "name": "Articulos publicados"
-        }
-      ]
-    },
     "configuration": {
       "title": "mdmath",
       "properties": {
