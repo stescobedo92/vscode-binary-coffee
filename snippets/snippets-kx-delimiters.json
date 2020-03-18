@@ -1,0 +1,262 @@
+{
+  "block": {
+    "prefix": "kx-block",
+    "body": "$$ <your code here> $$",
+    "description": "For any katex file you begin with $$ $$"
+  },
+  "tilde": {
+    "prefix": "kx-tilde",
+    "body": "\\tilde{a}",
+    "description": "Katex: ã"
+  },
+  "quote": {
+    "prefix": "kx-quote",
+    "body": "a'",
+    "description": "Katex: a'"
+  },
+  "mathring": {
+    "prefix": "kx-mathring",
+    "body": "\\mathring{g}",
+    "description": "Katex: g"
+  },
+  "doble-quote": {
+    "prefix": "kx-double-quote",
+    "body": "a''",
+    "description": "Katex: a′′"
+  },
+  "widetilde": {
+    "prefix": "kx-widetilde",
+    "body": "\\widetilde{ac}",
+    "description": "Katex: a′′"
+  },
+  "overgroup": {
+    "prefix": "kx-overgroup",
+    "body": "\\overgroup{AB}",
+    "description": "Katex: a′′"
+  },
+  "prime": {
+    "prefix": "kx-prime",
+    "body": "a^{\\prime}",
+    "description": "Katex: a′"
+  },
+  "undergroup": {
+    "prefix": "kx-undergroup",
+    "body": "\\undergroup{AB}",
+    "description": "Katex: a′"
+  },
+  "acute": {
+    "prefix": "kx-acute",
+    "body": "\\acute{a}",
+    "description": "Katex: a′"
+  },
+  "vectF": {
+    "prefix": "kx-vec",
+    "body": "\\vec{F}",
+    "description": "Katex: a′"
+  },
+  "Overrightarrow": {
+    "prefix": "kx-overrightarrow",
+    "body": "\\Overrightarrow{AB}",
+    "description": "Katex: a′"
+  },
+  "bar": {
+    "prefix": "kx-bar",
+    "body": "\\bar{y}",
+    "description": "Katex: a′"
+  },
+  "overleftarrow": {
+    "prefix": "kx-overleftarrow",
+    "body": "\\overleftarrow{AB}",
+    "description": "Katex: a′"
+  },
+  "overrightarrow": {
+    "prefix": "kx-overrightarrow",
+    "body": "\\overrightarrow{AB}",
+    "description": "Katex: a′"
+  },
+  "breve": {
+    "prefix": "kx-breve",
+    "body": "\\breve{a}",
+    "description": "Katex: a′"
+  },
+  "underleftarrow": {
+    "prefix": "kx-underleftarrow",
+    "body": "\\underleftarrow{AB}",
+    "description": "Katex: a′"
+  },
+  "underrightarrow": {
+    "prefix": "kx-underrightarrow",
+    "body": "\\underrightarrow{AB}",
+    "description": "Katex: a′"
+  },
+  "lparen": {
+    "prefix": "kx-lparen",
+    "body": "\\lparen",
+    "description": "Left parent: ("
+  },
+  "rparen": {
+    "prefix": "kx-rparen",
+    "body": "\\rparen",
+    "description": "Rigth parent: )"
+  },
+  "rceil": {
+    "prefix": "kx-rceil",
+    "body": "\\rceil",
+    "description": "Rigth ceil: ⌉"
+  },
+  "lceil": {
+    "prefix": "kx-lceil",
+    "body": "\\lceil",
+    "description": "Left ceil: ⌈"
+  },
+  "uparrow": {
+    "prefix": "kx-uparrow",
+    "body": "\\uparrow",
+    "description": "Uparrow: ↑"
+  },
+  "downarrow": {
+    "prefix": "kx-downarrow",
+    "body": "\\downarrow",
+    "description": "Downarrow: ↓"
+  },
+  "lfloor": {
+    "prefix": "kx-lfloor",
+    "body": "\\lfloor",
+    "description": "Left floor: ⌊"
+  },
+  "rfloor": {
+    "prefix": "kx-rfloor",
+    "body": "\\rfloor",
+    "description": "Rigth floor: ⌋"
+  },
+  "lbrack": {
+    "prefix": "kx-lbrack",
+    "body": "\\lbrack",
+    "description": "Left Bracket: ["
+  },
+  "rbrack": {
+    "prefix": "kx-rbrack",
+    "body": "\\lbrack",
+    "description": "Rigth Bracket: ]"
+  },
+  "lbrace": {
+    "prefix": "kx-lbrace",
+    "body": "\\lbrace",
+    "description": "Left Brace: {"
+  },
+  "lmoustache": {
+    "prefix": "kx-lmoustache",
+    "body": "\\lmoustache",
+    "description": "Moustache: ⎱"
+  },
+  "rmoustache": {
+    "prefix": "kx-rmoustache",
+    "body": "\\rmoustache",
+    "description": "Moustache: ⎰"
+  },
+  "updownarrow": {
+    "prefix": "kx-updownarrow",
+    "body": "\\updownarrow",
+    "description": "Rigth: ↕"
+  },
+  "langle": {
+    "prefix": "kx-langle",
+    "body": "\\langle",
+    "description": "Langle: ⟨ "
+  },
+  "rangle": {
+    "prefix": "kx-rangle",
+    "body": "\\rangle",
+    "description": "Rangle: ⟩ "
+  },
+  "lgroup": {
+    "prefix": "kx-lgroup",
+    "body": "\\lgroup",
+    "description": "Left Group: ⟮ "
+  },
+  "rgroup": {
+    "prefix": "kx-rgroup",
+    "body": "\\rgroup",
+    "description": "Rigth Group: ⟯ "
+  },
+  "Uparrow": {
+    "prefix": "kx-Uparrow",
+    "body": "\\Uparrow",
+    "description": "Uparrow: ⇑ "
+  },
+  "vert": {
+    "prefix": "kx-vert",
+    "body": "\\vert",
+    "description": "Vert: ∣ "
+  },
+  "ulcorner": {
+    "prefix": "kx-ulcorner",
+    "body": "\\ulcorner",
+    "description": "Ulcorner: ┌ "
+  },
+  "urcorner": {
+    "prefix": "kx-urcorner",
+    "body": "\\urcorner",
+    "description": "URcorner: ┐ "
+  },
+  "Downarrow": {
+    "prefix": "kx-Downarrow",
+    "body": "\\Downarrow",
+    "description": "Downarrow: ⇓ "
+  },
+  "Vert": {
+    "prefix": "kx-Vert",
+    "body": "\\Vert",
+    "description": "Double Vert: ∥ "
+  },
+  "llcorner": {
+    "prefix": "kx-llcorner",
+    "body": "\\llcorner",
+    "description": "Left lcorner: └ "
+  },
+  "lrcorner": {
+    "prefix": "kx-lrcorner",
+    "body": "\\lrcorner",
+    "description": "Right lrcorner: ┘ "
+  },
+  "Updownarrow": {
+    "prefix": "kx-Updownarrow",
+    "body": "\\Updownarrow",
+    "description": "Updownarrow: ⇕ "
+  },
+  "lvert": {
+    "prefix": "kx-lvert",
+    "body": "\\lvert",
+    "description": "Left Double Vert: ∥ "
+  },
+  "rvert": {
+    "prefix": "kx-rvert",
+    "body": "\\rvert",
+    "description": "Rigth Double Vert: ∥ "
+  },
+  "dot-left": {
+    "prefix": "kx-dot-left",
+    "body": "\\left.",
+    "description": "Dot Left: . "
+  },
+  "dot-right": {
+    "prefix": "kx-dot-right",
+    "body": "\\right.",
+    "description": "Dot Right: . "
+  },
+  "backslash": {
+    "prefix": "kx-dot-left",
+    "body": "\\backslash",
+    "description": "BackSlash: \\ "
+  },
+  "lang": {
+    "prefix": "kx-lang",
+    "body": "\\lang",
+    "description": "Left Ang: ⟨ "
+  },
+  "rang": {
+    "prefix": "kx-rang",
+    "body": "\rlang",
+    "description": "Right Ang: ⟩ "
+  }
+}
