@@ -1,5 +1,11 @@
 # Binary Coffee
 
+---
+
+[![Version](https://vsmarketplacebadge.apphb.com/version/stescobedo.binary-coffee-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=stescobedo.binary-coffee-snippet)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/stescobedo.binary-coffee-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=stescobedo.binary-coffee-snippet)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/stescobedo.binary-coffee-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=stescobedo.binary-coffee-snippet)
+
 ## Write an Article
 
 - Create new (Binary Coffee Article) from pre-defined templates.
@@ -26,15 +32,12 @@
 
 ---
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/stescobedo.binary-coffee-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=stescobedo.binary-coffee-snippet)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/stescobedo.binary-coffee-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=stescobedo.binary-coffee-snippet)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/stescobedo.binary-coffee-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=stescobedo.binary-coffee-snippet)
-
 This extension contains code snippets for Binary Coffee Articles, syntax for [Vs Code][code] editor (supports both Markdown).
 
 ## Supported languages (file extensions)
 
 - Markdown (.md)
+- Katex (.md)
 - JavaScript (.js)
 - HTML (.html)
 
