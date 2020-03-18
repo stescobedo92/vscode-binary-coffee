@@ -21,7 +21,7 @@
       
     </Properties>
     
-    <Icon>extension/images/bncf-icon-1.svg</Icon>
+    <Icon>extension/images/bncf-icon-1.png</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
