@@ -1,0 +1,62 @@
+{
+  "alpha": {
+    "prefix": "kx-Alpha",
+    "body": "\\Alpha",
+    "description": "Letter: Alpha(A)"
+  },
+  "beta": {
+    "prefix": "kx-beta",
+    "body": "\\Beta",
+    "description": "Letter: Beta(B)"
+  },
+  "gamma": {
+    "prefix": "kx-gamma",
+    "body": "\\Gamma",
+    "description": "Letter: Gamma(Γ)"
+  },
+  "delta": {
+    "prefix": "kx-delta",
+    "body": "\\Delta",
+    "description": "Letter: Delta(Δ)"
+  },
+  "epsilon": {
+    "prefix": "kx-epsilon",
+    "body": "\\Epsilon",
+    "description": "Letter: Epsilon(E)"
+  },
+  "zeta": {
+    "prefix": "kx-zeta",
+    "body": "\\Zeta",
+    "description": "Letter: Zeta(Z)"
+  },
+  "eta": {
+    "prefix": "kx-eta",
+    "body": "\\Eta",
+    "description": "Letter: Eta(H)"
+  },
+  "theta": {
+    "prefix": "kx-theta",
+    "body": "\\Theta",
+    "description": "Letter: Theta(Θ)"
+  },
+  "iota": {
+    "prefix": "kx-iota",
+    "body": "\\Iota",
+    "description": "Letter: Iota(I)"
+  },
+  "kappa": {
+    "prefix": "kx-kappa",
+    "body": "\\Kappa",
+    "description": "Letter: Kappa(K)"
+  },
+  "lambda": {
+    "prefix": "kx-lambda",
+    "body": "\\Lambda",
+    "description": "Letter: Lambda(Λ)"
+  },
+  "mu": {
+    "prefix": "kx-mu",
+    "body": "\\Mu",
+    "description": "Letter: Mu(mu)"
+  }
+}
