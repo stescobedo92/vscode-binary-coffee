@@ -1,7 +1,7 @@
 {
   "name": "binary-coffee-snippet",
   "description": "Extension Pack snippets for Binary Coffee",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "displayName": "Binary Coffee snippets for articles",
   "publisher": "stescobedo",
   "icon": "images/bncf-icon-1.png",
@@ -17,51 +17,83 @@
     "Snippets"
   ],
   "activationEvents": [
+    "onView:bncfView",
     "onLanguage:markdown",
-    "onCommand:extension.newTemplateFromFile",
-    "onCommand:extension.newFileFromTemplate",
-    "onCommand:extension.editTemplate",
-    "onCommand:extension.newTemplate"
+    "onCommand:extension.create.newTemplateFromFile",
+    "onCommand:extension.create..newFileFromTemplate",
+    "onCommand:extension.create.editTemplate",
+    "onCommand:extension.create.newTemplate"
   ],
   "main": "./extension.js",
   "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "binary-coffee-side",
+          "title": "Binary Coffee",
+          "icon": "images/bncf-icon-1.svg"
+        }
+      ]
+    },
+    "views": {
+      "binary-coffee-side": [
+        {
+          "id": "bncfView",
+          "name": "Options"
+        },
+        {
+          "id": "bncfView-1",
+          "name": "More Options"
+        }
+      ]
+    },
     "commands": [
       {
-        "command": "extension.newTemplate",
+        "command": "extension.create.newTemplate",
         "title": "Create empty article",
-        "category": "Binary Coffee: Files"
+        "icon": {
+          "light": "images/light/bncf-icon-1.svg",
+          "dark": "images/dark/bncf-icon-1.svg"
+        }
       },
       {
-        "command": "extension.newTemplateFromFile",
+        "command": "extension.create.newTemplateFromFile",
         "title": "Create new Template for (binary-coffe) articles",
-        "category": "Binary Coffee: Files"
+        "icon": {
+          "light": "images/light/bncf-icon-1.svg",
+          "dark": "images/dark/bncf-icon-1.svg"
+        }
       },
       {
         "command": "extension.newFileFromTemplate",
         "title": "Create new (binary-coffe-article) from template",
-        "category": "Binary Coffee: Files"
+        "group": "Binary Coffee: Files"
       },
       {
         "command": "extension.editTemplate",
         "title": "Edit File Template",
-        "category": "Binary Coffee: Files"
+        "group": "Binary Coffee: Files"
       },
       {
         "command": "extension.clipToHtml",
         "title": "Copy to ClipBoard",
-        "category": "Binary Coffee: Article"
+        "group": "Binary Coffee: Files"
       },
       {
         "command": "extension.saveToHtml",
         "title": "Save to HTML",
-        "category": "Binary Coffee: Article"
+        "group": "Binary Coffee: Files"
       }
     ],
     "menus": {
       "editor/context": [
         {
           "command": "extension.newTemplateFromFile",
-          "group": "Binary Coffee: Templates"
+          "group": "Binary Coffee: Templates",
+          "icon": {
+            "light": "images/light/bncf-icon-1.svg",
+            "dark": "images/dark/bncf-icon-1.svg"
+          }
         },
         {
           "command": "extension.newFileFromTemplate",
@@ -79,7 +111,11 @@
       "explorer/context": [
         {
           "command": "extension.newFileFromTemplate",
-          "group": "Binary Coffee: Templates"
+          "group": "Binary Coffee: Templates",
+          "icon": {
+            "light": "images/light/bncf-icon-1.svg",
+            "dark": "images/dark/bncf-icon-1.svg"
+          }
         }
       ]
     },
